@@ -1,0 +1,38 @@
+body{
+    font-size: 1.5em;
+    text-align: center  ;
+
+}
+body*:not(div){
+    background-color: aqua;
+}
+form{
+    margin-top: 3em;
+    border:1px solid black;
+    box-shadow:0 0 10px rgba(0 , 0, 0,0.2);
+    display: inline-block;
+    
+    text-align: center;
+    padding:5px;
+}
+input {
+    font-size: 25px;
+}
+label{
+    display:block;
+    margin-bottom: 5px;
+}
+#EliminaTask{
+    margin-left: 1em;
+    font-size: 15px;
+}
+.task{
+    margin-top: 2em;
+}
+label{
+    font: 1em sans-serif;
+}
+#ConteinerTask {
+    box-shadow: 0,0,10px rgba(0 , 0, 0,0.2);
+    display: inline-block;
+}
